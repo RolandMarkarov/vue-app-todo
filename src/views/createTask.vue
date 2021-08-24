@@ -77,24 +77,3 @@
     }
   }
 </script>
-
-<style scoped lang="scss">
-	p:not(:first-child) {
-		margin-top: 20px;
-	}
-
-
-	.flex-grow {
-		flex-grow: 1;
-	}
-
-	.block {
-		display: block;
-	}
-
-	.navigate-back {
-		width: 100%;
-		margin: 0;
-		text-align: left;
-	}
-</style>

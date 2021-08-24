@@ -66,7 +66,6 @@
         this.task = task
       },
       handleEditItem(e) {
-        console.log(e, 'handleEditItem')
         if (e) {
           this.saveToLocalStorage('tasks', this.tasks)
         } else {
@@ -84,12 +83,3 @@
   }
 
 </script>
-<style lang="scss" scoped>
-	.checked {
-		text-decoration: line-through;
-	}
-
-	.margin--left {
-		margin-left: 10px;
-	}
-</style>
